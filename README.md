@@ -17,7 +17,8 @@ The following circuit and equation were used as a reference [link](http://www.ee
 ## Usage
 The testbench initializes the FIR filter with a set of coefficients and applies random input data to demonstrate the filtering process. You can modify the coefficients and input data to observe different filtering behaviors.
 
-'''initial begin
+```
+initial begin
     // Initialize inputs
     CLK = 0;
     h = {4'b1111, 4'b1111, 4'b1111, 4'b1111};  // Example coefficients
@@ -35,4 +36,5 @@ function [1:0] noise;
     begin
         noise = $random % 2;  // Generates a random value between 0 and 1
     end
-endfunction'''
+endfunction
+```
