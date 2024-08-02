@@ -1,7 +1,8 @@
 # Parametric-FIR-Filter
 This project implements a Finite Impulse Response (FIR) filter using Verilog. The filter is designed to process input data stream with configurable coefficients and widths. This project includes a parameterizable register module, the main FIR filter module, and a testbench for simulation and verification.
 
-The following circuit and equation were used as a reference [link link](http://www.ee.ic.ac.uk/pcheung/teaching/ee3_dsd/fir.pdf):
+The following circuit and equation were used as a reference [link](http://www.ee.ic.ac.uk/pcheung/teaching/ee3_dsd/fir.pdf):
+
 ![image](https://github.com/user-attachments/assets/9890c76e-7446-4490-87e2-55757111b9b0)
 ![image](https://github.com/user-attachments/assets/a476d999-b31b-4409-bf3c-4cbf33b34afd)
 
